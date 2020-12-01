@@ -1,0 +1,39 @@
+DL1EventSource
+==============
+
+.. currentmodule:: ctapipe.io
+
+.. autoclass:: DL1EventSource
+   :show-inheritance:
+
+   .. rubric:: Attributes Summary
+
+   .. autosummary::
+
+      ~DL1EventSource.datalevels
+      ~DL1EventSource.has_simulated_dl1
+      ~DL1EventSource.is_simulation
+      ~DL1EventSource.mc_headers
+      ~DL1EventSource.obs_ids
+      ~DL1EventSource.subarray
+
+   .. rubric:: Methods Summary
+
+   .. autosummary::
+
+      ~DL1EventSource.close
+      ~DL1EventSource.is_compatible
+
+   .. rubric:: Attributes Documentation
+
+   .. autoattribute:: datalevels
+   .. autoattribute:: has_simulated_dl1
+   .. autoattribute:: is_simulation
+   .. autoattribute:: mc_headers
+   .. autoattribute:: obs_ids
+   .. autoattribute:: subarray
+
+   .. rubric:: Methods Documentation
+
+   .. automethod:: close
+   .. automethod:: is_compatible
